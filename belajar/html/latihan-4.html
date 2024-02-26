@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 4</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      header {
+        background-color: #f0f0f0;
+        padding: 1rem;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+
+      aside {
+        float: left;
+        width: 20%;
+        max-width: 200px;
+        height: 100dvh;
+        background-color: #e0e0e0;
+        padding: 1rem;
+      }
+
+      main {
+        display: flex; /* Allow sidebar and content to sit side-by-side */
+        overflow: hidden;
+        height: 100dvh;
+      }
+
+      .content {
+        flex: 1; /* Make content take up remaining space */
+        position: relative;
+        padding: 1rem;
+        overflow: scroll;
+      }
+
+      h1,
+      h2 {
+        margin-bottom: 0.5rem;
+      }
+
+      .content p {
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <h2>sidebar</h2>
+        <ul>
+          <li><a href="#">Section 1</a></li>
+          <li><a href="#">Section 2</a></li>
+          <li><a href="#">Section 3</a></li>
+        </ul>
+      </aside>
+
+      <section class="content">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <h1>Main Content</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+          vehicula risus eget augue. Nam mollis wisi vitae purus gravida, ac
+          tincidunt lorem congue. Donec at imperdiet dui. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Donec eu libero sit amet
+          quam egestas semper. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
